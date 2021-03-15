@@ -43,6 +43,9 @@ a {
 /* Nav */
 .site.nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
 
 }
 .site.nav .link:hover,
@@ -60,7 +63,15 @@ a {
   color: var(--accent-color);
   cursor: pointer;
 }
-
+.contacts-list {
+  color: var(--primary-text-color);
+  font-weight: 500;
+}
+.contacts-list:hover,
+.contacts-list:focus {
+  color: var(--accent-color);
+  
+}
 /* Hero */
 .hero {
   background-color: #2f303a;
@@ -79,10 +90,28 @@ a {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+.button {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
 .button:hover,
 .button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.tittle {
+  color: var(--title-text-color);
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 2;
+  
 }
 
 /* Section */
@@ -112,6 +141,14 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.17;
+    
+}
+.text-list {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+
 }
 /* Featurres */
 .features {
